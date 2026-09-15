@@ -1,0 +1,7 @@
+{
+  "filter_paths": "(lib/|test/|script/)",
+  "detectors_to_exclude": "assembly,pragma,solc-version,naming-convention,low-level-calls,too-many-digits,timestamp,dead-code,cyclomatic-complexity,similar-names,costly-loop,calls-loop,reentrancy-events,reentrancy-benign",
+  "exclude_informational": true,
+  "exclude_optimization": true,
+  "fail_on": "medium"
+}

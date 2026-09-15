@@ -1,0 +1,16 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# foundry
+out/
+cache/
+broadcast/**/dry-run/
+lcov.info
+coverage/
+
+# editors / os
+.DS_Store
+.vscode/
+.idea/
