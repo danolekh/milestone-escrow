@@ -209,7 +209,7 @@ contract MilestoneEscrow is ReentrancyGuard {
         job.reviewWindow = reviewWindow;
         // status defaults to Created, cursor to 0
 
-        uint256 total;
+        uint256 total = 0;
         for (uint256 i = 0; i < amounts.length; ++i) {
             uint256 amount = amounts[i];
             if (amount == 0) revert ZeroAmount(i);
@@ -320,7 +320,7 @@ contract MilestoneEscrow is ReentrancyGuard {
 
         job.status = JobStatus.Cancelled;
 
-        uint256 refund;
+        uint256 refund = 0;
         if (status == JobStatus.Funded) {
             Milestone[] storage ms = job.milestones;
             uint256 len = ms.length;
