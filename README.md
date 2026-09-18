@@ -94,7 +94,7 @@ this after every random call sequence, against both the contract's own view and 
 
 | Network | Address |
 | --- | --- |
-| Base Sepolia (84532) | pending |
+| Base Sepolia (84532) | [`0x028FB5C4E093D679f56323a70773bAd7aB864d77`](https://sepolia.basescan.org/address/0x028fb5c4e093d679f56323a70773bad7ab864d77#code) (verified) |
 | Base mainnet (8453) | pending |
 
 ## Development
